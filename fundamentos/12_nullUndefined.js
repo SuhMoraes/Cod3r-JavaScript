@@ -8,7 +8,7 @@ valor = null; // iniciado, mas sem valor/sem referência
 console.log(valor);
 
 const produto = {}
-console.log(produto.preco); // O preço não está definido = unefined
+console.log(produto.preco); // O preço não está definido = undefined
 console.log(produto);
 
 produto.preco = 3.50;
