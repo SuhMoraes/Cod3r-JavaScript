@@ -12,7 +12,7 @@
 <hr/>
 
 <p align="center">
- <a href="#about">Sobre</a> •
+ <a href="#introducao">Introdução</a> •
   <a href="#conteudo-das-Aulas">Conteúdo das Aulas</a> •
  <a href="#execucao-projeto">Como executar o projeto</a> •
  <a href="#licenc-a">Licença</a> • 
@@ -21,7 +21,7 @@
 <hr>
 
 
-<h2 id="about">🚧Sobre🚧</h2>
+<h2 id="introducao">🚧Introdução🚧</h2>
   <p>
    
   </p>
