@@ -1,0 +1,50 @@
+<h1> Formulário</h1>
+
+<form action="" method="POST">
+    <label for="login"> Login:</label>
+    <input type="text" name="nome">
+    <label for="password"> Password:</label>
+    <input type="password" name="senha">
+    <textarea name="text" cols="30" rows="10"></textarea>
+    <div>
+        <input type="radio" name="tipo" value="admin"> Admin
+        <input type="radio" name="tipo" value="regular"> Regular        
+        <input type="radio" name="tipo" value="professor"> Professor
+    </div>
+
+    <select name="estado">
+        <option>Estado</option>
+        <option value="sp">São Paulo</option>
+        <option value="rj">Rio de Janeiro</option>
+        <option value="pr">Paraná</option>
+    </select>
+
+    <select name="intesses" multiple size="5">
+        <option> Interesses</option>
+        <option value="javascript"> Javascript </option>
+        <option value="php"> PHP </option>
+        <option value="java"> Java </option>
+        <option value="c"> C++ </option>
+        <option value="go"> GO </option>
+
+
+    </select>
+    <!-- Formaction --Envia do buttom o formulário-->
+    <button formaction="http://127.0.0.1:8080/usuarios">Incluir</button> 
+    <button>Alterar</button>
+</form>
+<style>
+  
+    input,
+    textarea, 
+    select{
+        display: block;   /* Ficará em bloco */
+        margin-bottom: 10px;
+    }
+
+    input[type=radio]{
+        display: inline;   /* Ficará em linha*/
+    }
+</style>
+
+
